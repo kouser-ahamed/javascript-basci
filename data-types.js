@@ -55,3 +55,25 @@ console.log(typeof myVariable); // Output: undefined
 let myNullVariable = null;
 console.log(myNullVariable); // Output: null
 console.log(typeof myNullVariable); // Output: object (this is a known quirk in JavaScript)
+
+
+
+let ageRofik = "25";
+console.log(ageRofik);
+console.log(typeof ageRofik);
+let ageRofikNumber = Number(ageRofik); // convert string to number
+console.log(ageRofikNumber);
+console.log(typeof ageRofikNumber);
+
+let ageRafik = parseInt(ageRofik); // convert string to integer
+console.log(ageRafik);
+console.log(typeof ageRafik);
+
+
+//convert number to string
+
+
+let roll = 101;
+let roll2 = String(roll); // convert number to string
+console.log(roll2);
+console.log(typeof roll2);
