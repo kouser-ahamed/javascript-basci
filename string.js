@@ -29,7 +29,7 @@ let travel = "We Love to travel and watch movies";
 
 let count = 0;
 
-for (let i = 0; i <travel.length; i++){
+for (let i = 0; i < travel.length; i++){
 
     let letter = travel[i];
     if(letter.toLowerCase() == "o"){
